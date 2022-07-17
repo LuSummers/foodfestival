@@ -1,7 +1,7 @@
 
 require("bootstrap");
 
-
+$(document).ready(function() {
   // First image is hard coded in index.html
   const carouselSlides = [
     {
@@ -40,3 +40,4 @@ require("bootstrap");
     </div>
   </div>`)
   })
+});
